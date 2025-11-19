@@ -1,0 +1,3114 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ABLoggerKit.LoggerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggerDelegate",
+                    "printedName": "ABLoggerKit.LoggerDelegate",
+                    "usr": "s:11ABLoggerKit14LoggerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvpZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ABLoggerKit.LoggerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerDelegate",
+                        "printedName": "ABLoggerKit.LoggerDelegate",
+                        "usr": "s:11ABLoggerKit14LoggerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvgZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ABLoggerKit.LoggerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoggerDelegate",
+                        "printedName": "ABLoggerKit.LoggerDelegate",
+                        "usr": "s:11ABLoggerKit14LoggerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvsZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvMZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC6loggerAA0C8Delegate_pSgvMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavpZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavgZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavsZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavMZ",
+                "mangledName": "$s11ABLoggerKit6LoggerC8logLevelSo03os_D7_type_tavMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(message:ofCategory:withType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC3log7message10ofCategory8withTypeySS_SSSo03os_D7_type_tatFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC3log7message10ofCategory8withTypeySS_SSSo03os_D7_type_tatFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "d",
+            "printedName": "d(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1dyySS_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1dyySS_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "d",
+            "printedName": "d(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1dyyyp_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1dyyyp_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "i",
+            "printedName": "i(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1iyyyp_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1iyyyp_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "i",
+            "printedName": "i(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1iyySS_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1iyySS_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "n",
+            "printedName": "n(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1nyySS_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1nyySS_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "n",
+            "printedName": "n(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1nyyyp_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1nyyyp_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1eyySS_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1eyySS_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1eyyyp_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1eyyyp_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1eyySS_s5Error_ptFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1eyySS_s5Error_ptFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1eyyyp_s5Error_ptFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1eyyyp_s5Error_ptFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "f",
+            "printedName": "f(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1fyySS_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1fyySS_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "f",
+            "printedName": "f(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1fyyyp_SStFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1fyyyp_SStFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "f",
+            "printedName": "f(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1fyySS_s5Error_ptFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1fyySS_s5Error_ptFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "f",
+            "printedName": "f(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit6LoggerC1fyyyp_s5Error_ptFZ",
+            "mangledName": "$s11ABLoggerKit6LoggerC1fyyyp_s5Error_ptFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ABLoggerKit6LoggerC",
+        "mangledName": "$s11ABLoggerKit6LoggerC",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogEvent",
+        "printedName": "LogEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "NotificationName",
+            "printedName": "NotificationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC16NotificationNameSo014NSNotificationF0avpZ",
+            "mangledName": "$s11ABLoggerKit8LogEventC16NotificationNameSo014NSNotificationF0avpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC16NotificationNameSo014NSNotificationF0avgZ",
+                "mangledName": "$s11ABLoggerKit8LogEventC16NotificationNameSo014NSNotificationF0avgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC4date10Foundation4DateVSgvp",
+            "mangledName": "$s11ABLoggerKit8LogEventC4date10Foundation4DateVSgvp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC4date10Foundation4DateVSgvg",
+                "mangledName": "$s11ABLoggerKit8LogEventC4date10Foundation4DateVSgvg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logType",
+            "printedName": "logType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC7logTypeSo03os_E7_type_tavp",
+            "mangledName": "$s11ABLoggerKit8LogEventC7logTypeSo03os_E7_type_tavp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC7logTypeSo03os_E7_type_tavg",
+                "mangledName": "$s11ABLoggerKit8LogEventC7logTypeSo03os_E7_type_tavg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC8categorySSvp",
+            "mangledName": "$s11ABLoggerKit8LogEventC8categorySSvp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC8categorySSvg",
+                "mangledName": "$s11ABLoggerKit8LogEventC8categorySSvg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC7messageSSvp",
+            "mangledName": "$s11ABLoggerKit8LogEventC7messageSSvp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC7messageSSvg",
+                "mangledName": "$s11ABLoggerKit8LogEventC7messageSSvg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:logType:category:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogEvent",
+                "printedName": "ABLoggerKit.LogEvent",
+                "usr": "s:11ABLoggerKit8LogEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ABLoggerKit8LogEventC4date7logType8category7messageAC10Foundation4DateVSg_So03os_F7_type_taS2Stcfc",
+            "mangledName": "$s11ABLoggerKit8LogEventC4date7logType8category7messageAC10Foundation4DateVSg_So03os_F7_type_taS2Stcfc",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit8LogEventC3logSSvp",
+            "mangledName": "$s11ABLoggerKit8LogEventC3logSSvp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC3logSSvg",
+                "mangledName": "$s11ABLoggerKit8LogEventC3logSSvg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC3logSSvs",
+                "mangledName": "$s11ABLoggerKit8LogEventC3logSSvs",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit8LogEventC3logSSvM",
+                "mangledName": "$s11ABLoggerKit8LogEventC3logSSvM",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ABLoggerKit8LogEventC",
+        "mangledName": "$s11ABLoggerKit8LogEventC",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogWriter",
+        "printedName": "LogWriter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogWriter",
+                "printedName": "ABLoggerKit.LogWriter",
+                "usr": "s:11ABLoggerKit9LogWriterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit9LogWriterC6sharedACvpZ",
+            "mangledName": "$s11ABLoggerKit9LogWriterC6sharedACvpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogWriter",
+                    "printedName": "ABLoggerKit.LogWriter",
+                    "usr": "s:11ABLoggerKit9LogWriterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit9LogWriterC6sharedACvgZ",
+                "mangledName": "$s11ABLoggerKit9LogWriterC6sharedACvgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileName",
+            "printedName": "fileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit9LogWriterC8fileNameSSvp",
+            "mangledName": "$s11ABLoggerKit9LogWriterC8fileNameSSvp",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit9LogWriterC8fileNameSSvg",
+                "mangledName": "$s11ABLoggerKit9LogWriterC8fileNameSSvg",
+                "moduleName": "ABLoggerKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogWriter",
+                "printedName": "ABLoggerKit.LogWriter",
+                "usr": "s:11ABLoggerKit9LogWriterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ABLoggerKit9LogWriterC8fileNameACSS_tcfc",
+            "mangledName": "$s11ABLoggerKit9LogWriterC8fileNameACSS_tcfc",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogWriter",
+                "printedName": "ABLoggerKit.LogWriter",
+                "usr": "s:11ABLoggerKit9LogWriterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11ABLoggerKit9LogWriterC4dateAC10Foundation4DateVSg_tcfc",
+            "mangledName": "$s11ABLoggerKit9LogWriterC4dateAC10Foundation4DateVSg_tcfc",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "openLog",
+            "printedName": "openLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit9LogWriterC04openC0SbyF",
+            "mangledName": "$s11ABLoggerKit9LogWriterC04openC0SbyF",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeText",
+            "printedName": "writeText(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit9LogWriterC9writeTextyySSF",
+            "mangledName": "$s11ABLoggerKit9LogWriterC9writeTextyySSF",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeLog",
+            "printedName": "writeLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogEvent",
+                "printedName": "ABLoggerKit.LogEvent",
+                "usr": "s:11ABLoggerKit8LogEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit9LogWriterC05writeC0yyAA0C5EventCF",
+            "mangledName": "$s11ABLoggerKit9LogWriterC05writeC0yyAA0C5EventCF",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeLog",
+            "printedName": "closeLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit9LogWriterC05closeC0SbyF",
+            "mangledName": "$s11ABLoggerKit9LogWriterC05closeC0SbyF",
+            "moduleName": "ABLoggerKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ABLoggerKit9LogWriterC",
+        "mangledName": "$s11ABLoggerKit9LogWriterC",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoggerDelegate",
+        "printedName": "LoggerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(message:ofCategory:withType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit14LoggerDelegateP3log7message10ofCategory8withTypeySS_SSSo03os_E7_type_tatF",
+            "mangledName": "$s11ABLoggerKit14LoggerDelegateP3log7message10ofCategory8withTypeySS_SSSo03os_E7_type_tatF",
+            "moduleName": "ABLoggerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ABLoggerKit.LoggerDelegate>",
+            "sugared_genericSig": "<Self where Self : ABLoggerKit.LoggerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11ABLoggerKit14LoggerDelegateP",
+        "mangledName": "$s11ABLoggerKit14LoggerDelegateP",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABLogger",
+        "printedName": "ABLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLimit",
+            "printedName": "logLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit0A0C8logLimitSivpZ",
+            "mangledName": "$s11ABLoggerKit0A0C8logLimitSivpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C8logLimitSivgZ",
+                "mangledName": "$s11ABLoggerKit0A0C8logLimitSivgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C8logLimitSivsZ",
+                "mangledName": "$s11ABLoggerKit0A0C8logLimitSivsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C8logLimitSivMZ",
+                "mangledName": "$s11ABLoggerKit0A0C8logLimitSivMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logEventList",
+            "printedName": "logEventList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ABLoggerKit.LogEvent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogEvent",
+                    "printedName": "ABLoggerKit.LogEvent",
+                    "usr": "s:11ABLoggerKit8LogEventC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit0A0C12logEventListSayAA03LogD0CGvpZ",
+            "mangledName": "$s11ABLoggerKit0A0C12logEventListSayAA03LogD0CGvpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ABLoggerKit.LogEvent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogEvent",
+                        "printedName": "ABLoggerKit.LogEvent",
+                        "usr": "s:11ABLoggerKit8LogEventC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C12logEventListSayAA03LogD0CGvgZ",
+                "mangledName": "$s11ABLoggerKit0A0C12logEventListSayAA03LogD0CGvgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevelForView",
+            "printedName": "logLevelForView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavpZ",
+            "mangledName": "$s11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavgZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavsZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavMZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForViewSo03os_C7_type_tavMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevelForFile",
+            "printedName": "logLevelForFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavpZ",
+            "mangledName": "$s11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavgZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavsZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavMZ",
+                "mangledName": "$s11ABLoggerKit0A0C15logLevelForFileSo03os_C7_type_tavMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevelForConsole",
+            "printedName": "logLevelForConsole",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavpZ",
+            "mangledName": "$s11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavpZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavgZ",
+                "mangledName": "$s11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavgZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLogType",
+                    "printedName": "os.OSLogType",
+                    "usr": "c:@EA@os_log_type_t"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavsZ",
+                "mangledName": "$s11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavsZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavMZ",
+                "mangledName": "$s11ABLoggerKit0A0C18logLevelForConsoleSo03os_C7_type_tavMZ",
+                "moduleName": "ABLoggerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupLogger",
+            "printedName": "setupLogger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C11setupLoggeryyFZ",
+            "mangledName": "$s11ABLoggerKit0A0C11setupLoggeryyFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeLogger",
+            "printedName": "closeLogger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C11closeLoggeryyFZ",
+            "mangledName": "$s11ABLoggerKit0A0C11closeLoggeryyFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C11setLogLevelyySo13os_log_type_taFZ",
+            "mangledName": "$s11ABLoggerKit0A0C11setLogLevelyySo13os_log_type_taFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addToLogEventList",
+            "printedName": "addToLogEventList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogEvent",
+                "printedName": "ABLoggerKit.LogEvent",
+                "usr": "s:11ABLoggerKit8LogEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C17addToLogEventListyyAA0eF0CFZ",
+            "mangledName": "$s11ABLoggerKit0A0C17addToLogEventListyyAA0eF0CFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearLogEventList",
+            "printedName": "clearLogEventList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C17clearLogEventListyyFZ",
+            "mangledName": "$s11ABLoggerKit0A0C17clearLogEventListyyFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:log:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLog",
+                "printedName": "os.OSLog",
+                "usr": "c:objc(cs)OS_os_log"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C3log_AD4typeySS_So06OS_os_C0CSo0f1_c1_D2_tatFZ",
+            "mangledName": "$s11ABLoggerKit0A0C3log_AD4typeySS_So06OS_os_C0CSo0f1_c1_D2_tatFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:ofCategory:withType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABLoggerKit0A0C3log_10ofCategory8withTypeySS_SSSo03os_C7_type_tatFZ",
+            "mangledName": "$s11ABLoggerKit0A0C3log_10ofCategory8withTypeySS_SSSo03os_C7_type_tatFZ",
+            "moduleName": "ABLoggerKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ABLoggerKit0A0C",
+        "mangledName": "$s11ABLoggerKit0A0C",
+        "moduleName": "ABLoggerKit",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ABLoggerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogViewerViewController",
+        "printedName": "LogViewerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController(im)viewDidLoad",
+            "mangledName": "$s11ABLoggerKit23LogViewerViewControllerC11viewDidLoadyyF",
+            "moduleName": "ABLoggerKit",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController(im)viewDidAppear:",
+            "mangledName": "$s11ABLoggerKit23LogViewerViewControllerC13viewDidAppearyySbF",
+            "moduleName": "ABLoggerKit",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogViewerViewController",
+                "printedName": "ABLoggerKit.LogViewerViewController",
+                "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11ABLoggerKit23LogViewerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "ABLoggerKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ABLoggerKit.LogViewerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogViewerViewController",
+                    "printedName": "ABLoggerKit.LogViewerViewController",
+                    "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController(im)initWithCoder:",
+            "mangledName": "$s11ABLoggerKit23LogViewerViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ABLoggerKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ABLoggerKit@objc(cs)LogViewerViewController",
+        "mangledName": "$s11ABLoggerKit23LogViewerViewControllerC",
+        "moduleName": "ABLoggerKit",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3014,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3047,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3080,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3113,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3146,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3179,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 23,
+      "value": "\"Notification.LogEvent\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 14,
+      "value": "\"HH:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
+      "length": 45,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 1,
+      "value": "\"] [\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 1,
+      "value": "\"]: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 960,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 3,
+      "value": "\"E\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 3,
+      "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 6,
+      "value": "\"logs\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 21,
+      "value": "\"yyyy-MM-dd_HH-mm-ss\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 5,
+      "value": "\"txt\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1770,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 1886,
+      "length": 26,
+      "value": "\"Log file: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 1911,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 1998,
+      "length": 43,
+      "value": "\"Log directory does not exists, create it.\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2152,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 40,
+      "value": "\"Error creating log directory: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 36,
+      "value": "\"Log file doesn't exist, create it.\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2519,
+      "length": 25,
+      "value": "\"Error creating log file\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2705,
+      "length": 29,
+      "value": "\"Open log file successfully.\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2772,
+      "length": 34,
+      "value": "\"Error opening log file: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 2805,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3133,
+      "length": 34,
+      "value": "\"Error writing log file: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3299,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3626,
+      "length": 34,
+      "value": "\"Error closing log file: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3659,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3685,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 3782,
+      "length": 22,
+      "value": "\"Log file was closed.\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3821,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "Array",
+      "offset": 481,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 33,
+      "value": "\"Log file: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 24,
+      "value": "\"Log file open: \""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "Array",
+      "offset": 1880,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/ABLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 12,
+      "value": "\"Log Viewer\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1153,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1934,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3186,
+      "length": 13,
+      "value": "\"Jump To Top\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3338,
+      "length": 16,
+      "value": "\"Jump To Bottom\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3558,
+      "length": 26,
+      "value": "\"Disable Auto Down To End\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3747,
+      "length": 25,
+      "value": "\"Enable Auto Down To End\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4000,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4070,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4174,
+      "length": 5,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4287,
+      "length": 7,
+      "value": "\"Clear\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5584,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7102,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7108,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7122,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7391,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7548,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/bluetrum\/Documents\/Library_Projects\/iOS\/ABLoggerKit\/ABLoggerKit\/Logger\/LogViewerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7685,
+      "length": 3,
+      "value": "0.1"
+    }
+  ]
+}

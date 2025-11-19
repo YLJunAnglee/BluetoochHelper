@@ -1,0 +1,88 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ABLoggerKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import ABLoggerKit
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+@_hasMissingDesignatedInitializers public class Logger {
+  public static var logger: (any ABLoggerKit.LoggerDelegate)?
+  public static var logLevel: os.OSLogType
+  public static func log(message: Swift.String, ofCategory category: Swift.String, withType type: os.OSLogType)
+  public static func d(_ category: Swift.String, _ message: Swift.String)
+  public static func d(_ categoryClass: Any, _ message: Swift.String)
+  public static func i(_ categoryClass: Any, _ message: Swift.String)
+  public static func i(_ category: Swift.String, _ message: Swift.String)
+  public static func n(_ category: Swift.String, _ message: Swift.String)
+  public static func n(_ categoryClass: Any, _ message: Swift.String)
+  public static func e(_ category: Swift.String, _ message: Swift.String)
+  public static func e(_ categoryClass: Any, _ message: Swift.String)
+  public static func e(_ category: Swift.String, _ error: any Swift.Error)
+  public static func e(_ categoryClass: Any, _ error: any Swift.Error)
+  public static func f(_ category: Swift.String, _ message: Swift.String)
+  public static func f(_ categoryClass: Any, _ message: Swift.String)
+  public static func f(_ category: Swift.String, _ error: any Swift.Error)
+  public static func f(_ categoryClass: Any, _ error: any Swift.Error)
+  @objc deinit
+}
+public class LogEvent {
+  public static let NotificationName: Foundation.NSNotification.Name
+  final public let date: Foundation.Date?
+  final public let logType: os.OSLogType
+  final public let category: Swift.String
+  final public let message: Swift.String
+  public init(date: Foundation.Date? = nil, logType: os.OSLogType, category: Swift.String, message: Swift.String)
+  public var log: Swift.String {
+    get
+    set
+  }
+  @objc deinit
+}
+public class LogWriter {
+  public static let shared: ABLoggerKit.LogWriter
+  final public let fileName: Swift.String
+  public init(fileName: Swift.String)
+  convenience public init(date: Foundation.Date? = Date())
+  @discardableResult
+  public func openLog() -> Swift.Bool
+  public func writeText(_ text: Swift.String)
+  public func writeLog(_ logEvent: ABLoggerKit.LogEvent)
+  @discardableResult
+  public func closeLog() -> Swift.Bool
+  @objc deinit
+}
+public protocol LoggerDelegate {
+  func log(message: Swift.String, ofCategory category: Swift.String, withType type: os.OSLogType)
+}
+@_hasMissingDesignatedInitializers open class ABLogger {
+  public static var logLimit: Swift.Int {
+    get
+    set
+  }
+  public static var logEventList: [ABLoggerKit.LogEvent] {
+    get
+  }
+  public static var logLevelForView: os.OSLogType
+  public static var logLevelForFile: os.OSLogType
+  public static var logLevelForConsole: os.OSLogType
+  open class func setupLogger()
+  open class func closeLogger()
+  open class func setLogLevel(_ logLevel: os.OSLogType)
+  open class func addToLogEventList(_ logEvent: ABLoggerKit.LogEvent)
+  open class func clearLogEventList()
+  open class func log(_ message: Swift.String, log: os.OSLog, type: os.OSLogType)
+  open class func log(_ message: Swift.String, ofCategory category: Swift.String, withType type: os.OSLogType)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LogViewerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}

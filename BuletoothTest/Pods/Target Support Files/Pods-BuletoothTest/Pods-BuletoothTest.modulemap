@@ -1,0 +1,6 @@
+framework module Pods_BuletoothTest {
+  umbrella header "Pods-BuletoothTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

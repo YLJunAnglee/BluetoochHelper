@@ -1,0 +1,11 @@
+framework module ABLoggerKit {
+  umbrella header "ABLoggerKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ABLoggerKit.Swift {
+  header "ABLoggerKit-Swift.h"
+  requires objc
+}
