@@ -24,6 +24,9 @@ import ABLoggerKit
 import SnapKit
 import CoreBluetooth
 
+public let v6ServiceId = "0000fff1-0000-1000-8000-00805f9b34fb"
+public let aacServiceId = "00001100-D102-11E1-9B23-00025B00A5A5"
+
 class ViewController: UIViewController {
     private var spaceing: CGFloat = 15.0
     private var selectButton: UIBarButtonItem!
@@ -288,9 +291,16 @@ class ViewController: UIViewController {
     @objc
     func selectOtaFile(_ sender: Any) {}
     
+    /**
+     
+        1. retrievePeripherals(withIdentifiers:) 只返回系统已记住的设备
+        2. retrieveConnectedPeripherals(withServices:) 只返回当前已连接的设备
+     
+     */
+    
     @objc
     func retriveByServices(_ sender: Any) {
-        let serviceIds = [CBUUID.init(string: "00001100-D102-11E1-9B23-00025B00A5A5")]
+        let serviceIds = [CBUUID.init(string: v6ServiceId)]
         let pps = BluetoothConnector.shared.getCentralManager()?.retrieveConnectedPeripherals(withServices: serviceIds)
         Logger.i(self, "\(String(describing: pps))")
     }
@@ -325,7 +335,7 @@ class ViewController: UIViewController {
         ///*  @seealso            CBConnectionEventMatchingOptionServiceUUIDs
         ///*  @seealso            CBConnectionEventMatchingOptionPeripheralUUIDs
         /// 附带服务id扫描
-        let serviceIds = [CBUUID.init(string: "00001100-D102-11E1-9B23-00025B00A5A5")]
+        let serviceIds = [CBUUID.init(string: v6ServiceId)]
         
         let options = [CBConnectionEventMatchingOption.serviceUUIDs: serviceIds]
         
