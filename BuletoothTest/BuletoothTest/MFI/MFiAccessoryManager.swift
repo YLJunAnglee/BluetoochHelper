@@ -686,12 +686,3 @@ public extension EAAccessory {
         """
     }
 }
-
-// MARK: - Data 扩展
-
-public extension Data {
-    /// 转换为十六进制字符串
-    var hexString: String {
-        return map { String(format: "%02X", $0) }.joined(separator: " ")
-    }
-}
