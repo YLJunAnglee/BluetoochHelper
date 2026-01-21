@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.lawaken.iap2</string>
+	</array>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>APP需要您的同意，才能使用麦克风，以便于视频录制、语音识别、语音聊天</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
@@ -34,6 +38,7 @@
 		<string>location</string>
 		<string>bluetooth-peripheral</string>
 		<string>remote-notification</string>
+		<string>external-accessory</string>
 	</array>
 </dict>
 </plist>
