@@ -16,7 +16,7 @@ class MFiExampleViewController: UIViewController {
     /// MFi 管理器实例
     /// 注意：协议字符串需要替换为你的配件实际协议
     private lazy var mfiManager: MFiAccessoryManager = {
-        let manager = MFiAccessoryManager(protocolString: "com.lawaken.iap2")
+        let manager = MFiAccessoryManager(protocolString: "com.youcompany.iap")
         manager.delegate = self
         manager.autoReconnectEnabled = true      // 启用自动重连
         manager.reconnectInterval = 3.0          // 重连间隔 3 秒

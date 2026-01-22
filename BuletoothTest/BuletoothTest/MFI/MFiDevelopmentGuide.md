@@ -792,7 +792,7 @@ extension AutoReconnectManager {
   certSerial: 16 bytes 
   certData: 607 bytes 
   protocols: (
-    "com.lawaken.iap2"
+    "com.youcompany.iap"
 ) 
   delegate: (null) 
 }
