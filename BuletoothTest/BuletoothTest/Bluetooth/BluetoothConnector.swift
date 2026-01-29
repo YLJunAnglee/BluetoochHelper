@@ -115,6 +115,7 @@ class BluetoothConnector: NSObject {
                 self.currentConnectConfig = nil
             }
         }
+        Logger.d(self, "开始连接...")
     }
     
     /// 5.发送指令
@@ -201,6 +202,7 @@ extension BluetoothConnector: CBCentralManagerDelegate {
     
     /// 1.3连接外设成功
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+        Logger.d(self, "centralManager didConnect")
         /// 1.注册设备的设备id
         centralManager?.registerForConnectionEvents(options: [CBConnectionEventMatchingOption.peripheralUUIDs: [peripheral.identifier]])
         guard let currentConnectConfig = currentConnectConfig else {

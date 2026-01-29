@@ -300,7 +300,7 @@ class ViewController: UIViewController {
     
     @objc
     func retriveByServices(_ sender: Any) {
-        let serviceIds = [CBUUID.init(string: v6ServiceId)]
+        let serviceIds = [CBUUID.init(string: aacServiceId)]
         let pps = BluetoothConnector.shared.getCentralManager()?.retrieveConnectedPeripherals(withServices: serviceIds)
         Logger.i(self, "\(String(describing: pps))")
     }
@@ -335,7 +335,7 @@ class ViewController: UIViewController {
         ///*  @seealso            CBConnectionEventMatchingOptionServiceUUIDs
         ///*  @seealso            CBConnectionEventMatchingOptionPeripheralUUIDs
         /// 附带服务id扫描
-        let serviceIds = [CBUUID.init(string: v6ServiceId)]
+        let serviceIds = [CBUUID.init(string: aacServiceId)]
         
         let options = [CBConnectionEventMatchingOption.serviceUUIDs: serviceIds]
         
