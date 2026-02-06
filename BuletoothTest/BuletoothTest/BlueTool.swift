@@ -86,7 +86,7 @@ extension Data {
 
 func matchBrandSoundDevice(deviceName: String) -> Bool {
     let name = deviceName.lowercased()
-    if name.hasPrefix("BrandSound".lowercased()) || name.hasPrefix("B639".lowercased()) || name.hasPrefix("B626".lowercased()) {
+    if name.hasPrefix("BrandSound".lowercased()) || name.hasPrefix("B639".lowercased()) || name.hasPrefix("B626".lowercased()) || name.hasPrefix("T-09".lowercased()) || name.hasPrefix("T- 09".lowercased()) {
         return true
     } else {
         return false

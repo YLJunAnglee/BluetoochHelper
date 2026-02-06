@@ -266,12 +266,14 @@ extension BluetoothConnector: CBPeripheralDelegate {
             connectStatusChange(status: .failure)
             return
         }
+        var tmpCharacteristicsUUID: [CBUUID] = []
         if currentConnectConfig.characteristicsUUID.uuidString != "" {
-            peripheral.discoverCharacteristics([currentConnectConfig.characteristicsUUID], for: findService)
+            tmpCharacteristicsUUID.append(currentConnectConfig.characteristicsUUID)
         }
         if currentConnectConfig.characteristicsUUIDRx.uuidString != "" {
-            peripheral.discoverCharacteristics([currentConnectConfig.characteristicsUUIDRx], for: findService)
+            tmpCharacteristicsUUID.append(currentConnectConfig.characteristicsUUIDRx)
         }
+        peripheral.discoverCharacteristics(tmpCharacteristicsUUID, for: findService)
     }
     
     ///2.2外设的特征被发现
@@ -288,7 +290,7 @@ extension BluetoothConnector: CBPeripheralDelegate {
             return
         }
         for characteristic in service.characteristics ?? [] {
-            Logger.d(self, "发现特征：\(characteristic.uuid)")
+            Logger.d(self, "发现特征：\(characteristic.uuid), 属性：\(testPropsType(props: characteristic.properties))")
             if characteristic.uuid.isEqual(currentConnectConfig.characteristicsUUID) {
                 addCharacteristic(for: peripheral, config: currentConnectConfig, characteristic: characteristic)
             }
